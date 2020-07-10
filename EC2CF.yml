@@ -79,7 +79,7 @@ Resources:
       - Name: simple-app
         Cpu: '256'
         Essential: 'true'
-        Image: ankitshahsoftvan/ecs:1.0.0
+        Image: mcr.microsoft.com/mcr/hello-world
         Memory: '512'
         PortMappings:
         - ContainerPort: 11111
